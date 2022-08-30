@@ -14,11 +14,6 @@ public class ctrl : MonoBehaviour
  public Texture2D pic;
  void Start()
  {
-  print(1);
-  a();
-  print(2);
-  print("QNMD!!!");
-  print("Asdwadsadasds");
  }
 
  public async void a()
