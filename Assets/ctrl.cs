@@ -19,6 +19,7 @@ public class ctrl : MonoBehaviour
   print(2);
   print("CNM!!!");
   print("CNMD!!!");
+  print("CNMDD!!!");
  }
 
  public async void a()
