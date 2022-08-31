@@ -9,33 +9,9 @@ using UnityEngine;
 
 public class ctrl : MonoBehaviour
 {
-    // Start is called before the first frame update
- public UnityEngine.UI.Image img;
- public Texture2D pic;
+ public GameObject a;
  void Start()
  {
- }
-
- public async void a()
- {
-     await b();
-     print(3);
- }
-
- async public Task b()
- {
-     await Task.Run(() =>
-     {
-         for (int i = 1; i <= 1000000; i++) i++;
-         print(5);
-     });
-     c();
-     print(4);
- }
-
- public void c()
- {
-     print(6);
  }
 
 }
